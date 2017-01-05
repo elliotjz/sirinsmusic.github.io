@@ -1,0 +1,87 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+}
+
+#sirins {
+  font-size: 28px;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 40px;
+  font-family: 'Abel', sans-serif;
+  font-weight: 200;
+  margin: auto;
+  padding: 40px;
+  width: 400px;
+  text-align: center;
+}
+
+ul {
+  text-transform: uppercase;
+  padding: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation {
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: left;
+  width: 100%;
+  z-index: 10000;
+}
+
+.navigation li {
+  color: white;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+.content {
+  background: url("images/odysseycover5.jpg") no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 720px;
+  text-align: center;
+  padding: 250px 0 0 0;
+  text-align: center;
+}
+
+.content li {
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+  margin: 0 10px;
+  border: thin solid white;
+  border-radius: 8px;
+}
+
+.video {
+  margin: 250px 0 0 0;
+  z-index: 1;
+}
+
+.bandcamp {
+  padding: 100px 0 20px 0;
+}
