@@ -1,0 +1,11 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.social-media-icon {
+	max-height: 25px;
+}
+
+.navbar-wrapper .navbar {
+	border-radius: 0;
+}
