@@ -1,11 +1,26 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+}
+
+h1 {
+	text-align: center;
+	
+}
+
+.navbar {
+	padding: 0;
+	margin: 0;
 }
 
 .social-media-icon {
 	max-height: 25px;
 }
 
-.navbar-wrapper .navbar {
-	border-radius: 0;
+
+.jumbotron {
+	background-color: #000;
+	margin: 0px;
+	padding: 0px;
 }
+
