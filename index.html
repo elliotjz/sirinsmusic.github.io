@@ -31,20 +31,8 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="#">Music</a></li>
-            <li><a href="#">Video</a></li>
+            <li><a href="#video">Video</a></li>
             <li><a href="#">About</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li><!-- /.dropdown -->
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="http://eepurl.com/bIAkCr">Join Mailing List</a></li>
@@ -58,20 +46,32 @@
     </nav>
 
     <div class="jumbotron">
-    	<div class="container">
-	    	<h2>Listen to Odyssey</h1>
+    	<div id="landing" class="container my-container">
+	    	<h2 class="heading1">Listen to Odyssey</h1>
 	    	<ul class="center-block">
-	    		<li><a target='_blank' href="https://play.spotify.com/album/5HbRS4rQ4HZjFa5rC08OiJ?play=true&utm_source=open.spotify.com&utm_medium=open">Spotify</a></li>
-		        <li><a target='_blank' href="https://itunes.apple.com/au/album/odyssey-ep/id1184598584">itunes</a></li>
-		        <li><a target='_blank' href="https://soundcloud.com/sirinsmusic/sets/sirins-bromtown-odyssey">Google Play</a></li>
-		        <li><a target='_blank' href="https://bromtown.bandcamp.com/">Soundcloud</a></li>
-			</ul>
-	    	<!--iframe class="center-block" width="80%" height="380" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/284616068&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe-->
-	    </div>
-	    <div class="container">
-	    	<h2>Watch Slow Down Film Clip</h2>
-	    	<iframe class="center-block" width="560" height="315" src="https://www.youtube.com/embed/04nckQI_uR8" frameborder="0" allowfullscreen></iframe>
-	    </div>
+	    		<li><a class="btn btn-default main-links" target='_blank' href="https://play.spotify.com/album/5HbRS4rQ4HZjFa5rC08OiJ?play=true&utm_source=open.spotify.com&utm_medium=open">Spotify</a></li>
+		      <li><a class="btn btn-default main-links" target='_blank' href="https://itunes.apple.com/au/album/odyssey-ep/id1184598584">iTunes</a></li>
+		      <li><a class="btn btn-default main-links" target='_blank' href="https://play.google.com/store/music/album/Sirins_Bromtown_Odyssey?id=Bmkridk7brighylsmooax57afx4">Google Play</a></li>
+		      <li><a class="btn btn-default main-links" target='_blank' href="https://soundcloud.com/sirinsmusic/sets/sirins-bromtown-odyssey">Soundcloud</a></li>
+			  </ul>
+        <div class="scroll-btn-container">
+          <a href="#music"><img class="scroll-btn" src="images/down-arrow.png"></a>
+        </div>
+	    </div> <!-- End Landing Page -->
+
+      <div id="music" class="container my-container">
+        <h2 class="heading2">Music</h2>
+        <div class="scroll-btn-container">
+          <a href="#video"><img class="scroll-btn" src="images/down-arrow.png"></a>
+        </div>
+      </div> <!-- End Music Page -->
+
+	    <div id="video" class="container my-container">
+	    	<h2 class="heading3">Watch Slow Down Film Clip</h2>
+	    	<div class="video-wrapper center-block">
+          <iframe class="center-block" src="https://www.youtube.com/embed/04nckQI_uR8" frameborder="0" allowfullscreen></iframe>
+        </div>
+	    </div> <!-- End Video Page -->
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
