@@ -3,24 +3,52 @@ body {
 	color: #fff;
 }
 
-h1 {
+h2 {
 	text-align: center;
-	
+	padding: 170px 0 10px 0;
+	font-weight: 100;
 }
 
-.navbar {
-	padding: 0;
-	margin: 0;
+iframe {
+	padding: 0 0 60px 0;
+}
+
+a {
+	color: white;
+}
+
+.navbar-fixed-top {
+	background-color: #000;
+	opacity: 0.8;
+	z-index: 20;
 }
 
 .social-media-icon {
 	max-height: 25px;
 }
 
-
 .jumbotron {
-	background-color: #000;
+	background: url("../images/background-grey.jpg") no-repeat top center;
+	background-size: cover;
+	background-attachment: fixed;
 	margin: 0px;
 	padding: 0px;
+	min-height: 750px;
+	text-align: center;
 }
 
+.jumbotron ul {
+	padding: 50px 0 150px 0;
+}
+
+.jumbotron li {
+  display: inline-block;
+  font-size: 14px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+  margin: 10px 10px;
+  border: thin solid white;
+  border-radius: 8px;
+  min-width: 180px;
+  flex-wrap: wrap;
+}
