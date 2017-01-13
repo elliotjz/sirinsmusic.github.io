@@ -30,24 +30,24 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="#">Music</a></li>
+            <li><a href="#music">Music</a></li>
             <li><a href="#video">Video</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#about">About</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://eepurl.com/bIAkCr">Join Mailing List</a></li>
-            <li><a href="https://soundcloud.com/sirinsmusic"><img class="social-media-icon" src="images/soundcloud-icon.png"></a></li>
-            <li><a href="https://twitter.com/sirinsmusic"><img class="social-media-icon" src="images/twitter-icon.png"></a></li>
-            <li><a href="https://facebook.com/sirinsmusic"><img class="social-media-icon" src="images/facebook-icon.png"></a></li>
-            <li><a href="https://www.instagram.com/elli0tjz/"><img class="social-media-icon" src="images/instagram-icon.png"></a></li>
+            <li><a target="_blank" href="http://eepurl.com/bIAkCr">Join Mailing List</a></li>
+            <li><a target="_blank" href="https://soundcloud.com/sirinsmusic"><img class="social-media-icon" src="images/soundcloud-icon.png"></a></li>
+            <li><a target="_blank" href="https://twitter.com/sirinsmusic"><img class="social-media-icon" src="images/twitter-icon.png"></a></li>
+            <li><a target="_blank" href="https://facebook.com/sirinsmusic"><img class="social-media-icon" src="images/facebook-icon.png"></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/elli0tjz/"><img class="social-media-icon" src="images/instagram-icon.png"></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
     <div class="jumbotron">
-    	<div id="landing" class="container my-container">
-	    	<h2 class="heading1">Listen to Odyssey</h1>
+    	<div id="landing" class="container landing-container">
+	    	<h2>Listen to Odyssey</h1>
 	    	<ul class="center-block">
 	    		<li><a class="btn btn-default main-links" target='_blank' href="https://play.spotify.com/album/5HbRS4rQ4HZjFa5rC08OiJ?play=true&utm_source=open.spotify.com&utm_medium=open">Spotify</a></li>
 		      <li><a class="btn btn-default main-links" target='_blank' href="https://itunes.apple.com/au/album/odyssey-ep/id1184598584">iTunes</a></li>
@@ -59,25 +59,45 @@
         </div>
 	    </div> <!-- End Landing Page -->
 
-      <div id="music" class="container my-container">
-        <h2 class="heading2">Music</h2>
+      <div id="music" class="container music-container">
+        <h2>Music</h2>
           <ul>
-            <li>One</li>
-            <li>Two</li>
-            <li>Three</li>
+            <li>
+              <iframe class="soundcloud" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/284616068&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            </li>
+            <li>
+              <iframe class="soundcloud" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/140729627&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            </li>
+            <li>
+              <iframe class="soundcloud" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/77302664&amp;color=00aabb&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+            </li>
           </ul>
         <div class="scroll-btn-container">
           <a href="#video"><img class="scroll-btn" src="images/down-arrow.png"></a>
         </div>
       </div> <!-- End Music Page -->
 
-	    <div id="video" class="container my-container">
-	    	<h2 class="heading3">Watch Slow Down Film Clip</h2>
+	    <div id="video" class="container video-container">
+	    	<h2>Watch Slow Down Film Clip</h2>
 	    	<div class="video-wrapper center-block">
           <iframe class="center-block" src="https://www.youtube.com/embed/04nckQI_uR8" frameborder="0" allowfullscreen></iframe>
         </div>
+        <div class="scroll-btn-container">
+          <a href="#about"><img class="scroll-btn" src="images/down-arrow.png"></a>
+        </div>
 	    </div> <!-- End Video Page -->
+
+      <div id="about" class="container about-container">
+        <h2>About</h2>
+        <p>Contact: elliot.zoerner@gmail.com</p>
+        <p>“Somewhere between a freewheeling circus-spiced Bonobo and the more aqueous depths of Jamie XX.” – The Bubble</p>
+        <p>Sirins, the moniker of Elliot Zoerner produces downtempo electronic music with complex textures. His music draws from a wide range of influences, from experimental to trip-hop to house to create emotive music with a natural sound.</p>
+        <p>As part of the internationally renowned Australian circus group ‘Gravity & Other Myths’, he composed the music for their show ‘A Simple Space’. His background classical percussion, drum kit, and electronic music allow him to craft an energetic live performance that compliments the live acrobatics. His live performances see the integration of live instruments, electronic loops, samplers and body percussion.</p>
+        <p>Sirins latest release ‘Odyssey’ is a collaboration with fellow Adelaide producer Bromtown. The EP mixes dance music with the subtlety and ambience of minimal music. The five tracks are pulled together with warm sound design and dynamic rhythms.</p>
+      </div> <!-- End About Page -->
     </div>
+
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>

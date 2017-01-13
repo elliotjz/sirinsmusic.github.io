@@ -21,6 +21,10 @@ ul {
 	padding: 0;
 }
 
+p {
+	text-align: left;
+}
+
 .navbar-fixed-top {
 	background-color: #000;
 	opacity: 0.8;
@@ -40,18 +44,6 @@ ul {
 	text-align: center;
 }
 
-.heading1 {
-	margin: 40vh 0 20px 0;
-}
-
-.heading2 {
-	margin: 10vh 0 20px 0;
-}
-
-.heading3 {
-	margin: 10vh 0 20px 0;
-}
-
 .jumbotron li {
 	display: inline-block;
 }
@@ -65,16 +57,48 @@ ul {
 	flex-wrap: wrap;
 }
 
-.my-container {
-	height: 100vh;
-}
-
-.scroll-btn-container {
-	padding-top: 35vh;
-}
-
 .scroll-btn {
-	max-height: 20px;
+	height: 20px;
+}
+
+.landing-container {
+	min-height: 100vh;
+}
+
+.landing-container h2 {
+	margin: 40vh 0 20px 0;
+}
+
+.landing-container .scroll-btn-container {
+	margin: 35vh 0 0 0;
+}
+
+.music-container {
+	min-height: 100vh;
+}
+
+.music-container h2 {
+	margin: 15vh 0 20px 0;
+}
+
+.music-container .scroll-btn-container {
+	margin: 8vh 0 0 0;
+}
+
+.soundcloud {
+	padding: 10px;
+}
+
+.video-container {
+	min-height: 100vh;
+}
+
+.video-container h2 {
+	margin: 12vh 0 20px 0;
+}
+
+.video-container .scroll-btn-container {
+	margin: 0;
 }
 
 .video-wrapper {
@@ -92,4 +116,13 @@ ul {
 	width: 100%;
 	height: 100%;
 }
+
+.about-container {
+	min-height: 100vh;
+}
+
+.about-container h2 {
+	margin: 20vh 0 20px 0;
+}
+
 
